@@ -1,0 +1,61 @@
+package classandobject;
+
+import java.util.Scanner;
+
+public class Student {
+   static String name;
+	static int stid;
+	static String course;
+	static int marks;
+	
+	public Student( String name, int stid, int marks, String course) {
+		this.name=name;
+		this.stid=stid;
+		this.marks=marks;
+		this.course=course;
+		
+	}
+	public static void main(String args[]) {
+		
+		 Student[] students=new Student[5];
+		 Scanner sc= new Scanner (System.in);
+		 
+		 for ( int i=0;i<=5;i++) {
+			 System.out.println("Enter name");
+			 name=sc.nextLine();
+			 System.out.println("Enter course");
+			 course=sc.nextLine();
+			 System.out.println("Enter marks");
+			 marks=sc.nextInt();
+			 System.out.println("Enter stid");
+			 stid= sc.nextInt();
+			 
+			
+			 
+			 
+			 
+		 }
+		
+		
+		 
+		 
+	}
+	 final void show() {
+		 
+		 if(Student.course==BCA && Student.marks>60)
+		 {
+			 
+			 System.out.println("student id: "+ stid);
+			 System.out.println("Student name:"+ name);
+			 System.out.println("Student marks:"+ marks);
+			 System.out.println("Student course:"+course);
+			 
+			 
+		 }
+	 }
+	
+
+}
+	
+	
+	

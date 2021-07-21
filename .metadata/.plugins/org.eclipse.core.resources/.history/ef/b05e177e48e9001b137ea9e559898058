@@ -1,0 +1,25 @@
+package classandobject;
+
+import java.util.Scanner;
+
+public class Student {
+	static String name;
+	int stid;
+	String course;
+	String marks;
+	
+	
+
+	
+	
+	
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter students name:");
+		name=sc.nextLine();
+		
+		
+
+	}
+
+}

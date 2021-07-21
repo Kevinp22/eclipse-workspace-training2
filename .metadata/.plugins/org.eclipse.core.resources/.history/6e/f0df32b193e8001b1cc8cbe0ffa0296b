@@ -1,0 +1,23 @@
+package com.neosoft.basics;
+
+import java.util.Scanner;
+
+public class Program2 {
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		System.out.println("enter number of rows:");
+		int row=sc.nextInt();
+		
+		int i;
+		for( i =0;i<row;i++) {
+			System.out.println(" ");
+		
+		for(int j=0; j<row;j++) {
+			System.out.println(j);
+		}
+		System.out.println();
+		}
+	}
+
+}

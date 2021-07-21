@@ -1,0 +1,39 @@
+package classandobject;
+
+class Employee{
+	int eid;
+	String ename;
+	int salary;
+	String project;
+	public Employee(int eid,String ename,int salary,String project) {
+		this.eid=eid;
+		this.ename-ename;
+		this.salary=salary;
+		this.project=project;
+		
+	}
+}
+class Project{
+	int pid;
+	String pname;
+	String location;
+	
+	public Project(int pid,String pname,String location) {
+		this.location=location;
+		this.pid=pid;
+		this.pname=pname;
+	}
+}
+
+
+public class Has {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee employees=new Employee(1,"khushi",50000,"Mobile app");
+		Employee employees2=new Employee(2,"khu",70000,"Mobile app");
+		
+
+	}
+
+}

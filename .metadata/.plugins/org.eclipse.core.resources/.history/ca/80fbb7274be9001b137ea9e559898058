@@ -1,0 +1,48 @@
+import java.util.Scanner;
+ class Student {
+    private String stid;
+    private String name;
+    private String course;
+    private int marks;
+
+    Student(String stid, String name, String course, int marks)
+    {
+        this.stid = stid;
+        this.name = name;
+        this.course = course;
+        this.marks = marks;
+    }
+
+    public void show()
+    {
+        if(this.marks > 60 && this.course == "BCA")
+        {
+            System.out.println("Student ID: " + this.stid);
+            System.out.println("Student Name: " + this.name);
+            System.out.println("Student course: " + this.course);
+            System.out.println("Student marks: " + this.marks);
+        }
+        System.out.println("----------------------------");
+    }
+}
+ 
+
+public class Students {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        
+        Student[] stu = new Student[5];
+
+        for (int i = 0; i < 5; ++i)
+        {
+            String stid = sc.nextLine();
+            String course=sc.nextLine();
+            int marks = sc.nextInt();
+            int id=sc.nextInt()
+            		;
+            
+            
+            
+        }
+    }
+}

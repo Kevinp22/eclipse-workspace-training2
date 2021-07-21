@@ -1,0 +1,67 @@
+package classandobject;
+
+
+
+import java.util.Scanner;
+
+class Student{
+	 String name;
+	  String course;
+	  int stid;
+	  int marks;
+	
+
+Student(  String  name1,   String course,  int stid, int marks){
+	this.name= name1;
+	this.course=course;
+	this.stid=stid;
+	this.marks=marks;
+}
+
+public  class Program4 {
+
+	public void main(String[] args) {
+		Student[] stu= new Student[5];
+		Scanner sc = new Scanner(System.in);
+		for(int i=0;i<=5;i++) {
+		System.out.println("Enter name");
+		name=sc.nextLine();
+		System.out.println("enter course");
+		course=sc.nextLine();
+		System.out.println("enter marks");
+		marks=sc.nextInt();
+		System.out.println("enter id");
+		stid=sc.nextInt();
+		}
+		
+		show();
+		
+	}
+
+
+}
+
+		
+		
+
+
+
+
+
+
+
+
+
+
+public void show() {
+	// TODO Auto-generated method stub
+	if(this.course=="BCA"&& this.marks>=60) {
+		
+		System.out.println(this.name);
+		System.out.println(this.course);
+		System.out.println(this.marks);
+		System.out.println(this.stid);
+		
+	}
+}
+}
