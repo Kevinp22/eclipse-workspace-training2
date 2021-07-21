@@ -1699,3 +1699,8 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.core.resources.IResou
 
 !ENTRY org.eclipse.jdt.launching 4 107 2021-07-21 10:43:13.434
 !MESSAGE Launch configuration Program4 references non-existing project corej.
+
+!ENTRY org.eclipse.core.resources 2 2 2021-07-21 11:00:04.133
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2021-07-21 11:00:04.134
+!MESSAGE The project description file (.project) for 'classandobject' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
