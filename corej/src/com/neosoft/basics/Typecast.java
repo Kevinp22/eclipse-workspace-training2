@@ -1,4 +1,4 @@
-package corej;
+package com.neosoft.basics;
 
 public class Typecast {
 

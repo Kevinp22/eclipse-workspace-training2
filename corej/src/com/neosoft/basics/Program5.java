@@ -1,4 +1,4 @@
-package classandobject;
+package com.neosoft.basics;
 
 class Employee{
 	int eid;
@@ -38,7 +38,7 @@ class Project{
 }
 
 
-public  class Has {
+public  class Program5 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
