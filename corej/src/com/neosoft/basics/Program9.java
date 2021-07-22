@@ -6,7 +6,7 @@ class Thread2 extends Thread{
 	public void run() {
 		
 		String str="Java is nice ";
-		for(int i=str.length()-1;i>=0;i--) {
+		for(int i=0;i<str.length();i+=2) {
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
